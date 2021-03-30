@@ -43,7 +43,7 @@ ui <- fluidPage(
                          "Cutoff for classifying a score as abnormal (number of standard deviations from the reference):",
                          min = -3,
                          max = -.01,
-                         value = -1),
+                         value = -1.5),
             numericInput("br_cd",
                          "Base rate of cognitive disorder in the population:",
                          min = .05,
